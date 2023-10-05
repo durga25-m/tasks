@@ -8,3 +8,6 @@ def loginView(request):
 
 def signupView(request):
     return render(request,'signup.html')
+
+def taskView(request):
+    return render(request,'task.html')
